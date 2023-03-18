@@ -27,15 +27,13 @@ public class App{
     public static void twisters(){
     for (int i=1;i<=110;i++){
     if (i%2==0)
-        System.out.print(" Tweetle ");
+        System.out.print(" Tweetle");
     if (i%4==0)
-        System.out.print(" beetle ");
+        System.out.print("Beetle");
     if (i%6==0)
-        System.out.print(" Poodle ");
+        System.out.print("Poodle");
     if (i%2!=0 && i%4!=0 && i%6!=0 )
-        System.out.print(i);
-    if (i%11==0)
-        System.out.println("\n");
+        System.out.print(" " + i);
     }
     }
 
